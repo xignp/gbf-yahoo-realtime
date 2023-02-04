@@ -1,0 +1,16 @@
+{
+    "name": "Yahooリアルタイム検索 for グラブル",
+    "description": "yahooリアルタイム検索",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+    "content_scripts": [{
+        "matches": ["https://search.yahoo.co.jp/*"],
+        "js": [
+          "content.js"
+        ],
+        "css": [
+            "content.css"
+        ]
+      }]
+}

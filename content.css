@@ -1,0 +1,23 @@
+.room-number{
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00a4d6;
+    border: 2px solid #0061a1;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#copy-alert{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #000000;
+    background-color:palegreen;
+    font-weight: bold;
+    display: none;
+    position: fixed;
+    bottom: 0;
+}
